@@ -133,7 +133,15 @@
 			"rotation": [-132.59, 21.87, -175.33],
 			"translation": [-2.5, -0.5, -2.25]
 		},
+		"thirdperson_lefthand": {
+			"rotation": [-132.59, 21.87, -175.33],
+			"translation": [-2.5, -0.5, -2.25]
+		},
 		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-0.5, 3.5, -0.5]
+		},
+		"firstperson_lefthand": {
 			"rotation": [0, 180, 0],
 			"translation": [-0.5, 3.5, -0.5]
 		},
