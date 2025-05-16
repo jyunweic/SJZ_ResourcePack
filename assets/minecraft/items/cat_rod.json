@@ -1,0 +1,14 @@
+{
+  "model": {
+      "type": "condition",
+      "on_false": {
+          "type": "model",
+          "model": "item/cat_rod"
+      },
+      "on_true": {
+          "type": "model",
+          "model": "item/cat_rod_cast"
+      },
+      "property": "fishing_rod/cast"
+  }
+}
