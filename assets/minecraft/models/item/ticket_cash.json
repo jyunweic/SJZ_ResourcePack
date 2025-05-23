@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/tickets/devil/devil_back",
+		"1": "item/tickets/devil/devil_front",
+		"particle": "item/tickets/devil/devil_back"
+	},
+	"elements": [
+		{
+			"from": [6, 6, 5.3],
+			"to": [12, 9, 5.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 6, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [6, 1, 7, 4], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [6, 4, 7, 7], "texture": "#missing"},
+				"up": {"uv": [6, 7, 0, 6], "texture": "#missing"},
+				"down": {"uv": [12, 0, 6, 1], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1, 1.5, 2.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, -60],
+			"translation": [3.5, 2.75, 0.25],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, -73],
+			"translation": [3.5, -2, 0.25],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"ground": {
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [0, 0, -16],
+			"translation": [-2.5, 2.75, 0],
+			"scale": [2.7, 2.7, 2.7]
+		},
+		"head": {
+			"translation": [-2.25, 9.75, -1],
+			"scale": [2.2, 2, 2]
+		},
+		"fixed": {
+			"translation": [-3, 1.5, 7.75],
+			"scale": [3, 3, 3]
+		}
+	}
+}
