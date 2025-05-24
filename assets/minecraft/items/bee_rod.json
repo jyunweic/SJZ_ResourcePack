@@ -1,6 +1,14 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "item/bee_rod"
+      "type": "condition",
+      "on_false": {
+          "type": "model",
+          "model": "item/bee_rod"
+      },
+      "on_true": {
+          "type": "model",
+          "model": "item/bee_rod_cast"
+      },
+      "property": "fishing_rod/cast"
   }
 }
